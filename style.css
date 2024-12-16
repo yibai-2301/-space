@@ -45,8 +45,8 @@ body::after{
 h1{
     font-size: 3rem;
     color: white;
-    margin:0  0  50px;
-    letter-spacing: 3px;
+    margin:0  0  40px;
+    letter-spacing: 5px;
 }
 
 .input-warp{
@@ -55,23 +55,24 @@ h1{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    height: 55px;
+    height: 50px;
     width: 90%;
     border-radius: 50px;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px rgb(248, 247, 247);
 }
 
 input{
     background-color: transparent;
     font-size: 2.5rem;
     color: white;
-    padding: 5px 10px;
+    padding: 0.5px 0.5px;
+    margin-bottom: 30px;
 
 }
 input::placeholder{
     font-size: 1.2rem;
     color: white;
-
+    margin-bottom: 20px;
 }
 .input-warp{
     font-size: 1.2rem;
@@ -84,7 +85,7 @@ input::placeholder{
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .rem p,
